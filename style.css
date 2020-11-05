@@ -16,9 +16,9 @@ tfoot{
     background-color:lightgreen ;
    
 }
-tfoot td {
+/* tfoot td {
     height: 50px;
-}
+} */
 
 img {
     width: 300px;
@@ -28,10 +28,7 @@ h1 {
     font-family: 'Bungee Shade', cursive;
     font-size: 1.5rem;
 }
-/* h1,h2{
-    margin: 0;
-    padding: 0;
-} */
+
 td {
     font-family: 'Josefin Sans', sans-serif;
     width: fit-content;
