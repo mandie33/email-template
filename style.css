@@ -1,0 +1,153 @@
+body{
+    box-sizing: content-box;
+    padding: 0px;
+    margin: 0px;
+}
+thead{
+    
+    background-color:lightsteelblue;
+}
+tbody{
+  
+    background-color:#f6f5f1 ;
+}
+tfoot{
+    
+    background-color:lightgreen ;
+   
+}
+tfoot td {
+    height: 50px;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+h1 {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 1.5rem;
+}
+/* h1,h2{
+    margin: 0;
+    padding: 0;
+} */
+td {
+    font-family: 'Josefin Sans', sans-serif;
+    width: fit-content;
+
+}
+tr {
+    margin: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family:'Fjalla One', sans-serif ;
+    display: block;
+    font-weight: bolder;
+    
+}
+a:hover{
+    font-size: 1rem;
+    color:#52057b;
+}
+#container {
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    border: solid black 2px;
+    background-color: lightslategrey;
+   
+
+   
+}
+#main-table {
+    margin: 0px;
+    
+    text-align: center;
+    width: 480px;
+    height: inherit;
+   
+    border-collapse:collapse;
+    
+    
+
+
+    
+}
+#secondary-table,#third-table{
+    width: 100%;
+}
+
+#secondary-table td{
+   
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+#third-table {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    
+}
+#third-table td{
+    
+    width: 100vw;
+    height: auto;
+    
+
+}
+
+
+.second-cell  {
+       height: 100px;
+}
+
+.roundImage {
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    display: inline-block;
+    margin: auto;
+    margin-bottom: 3px;
+    border: solid 2px #52057b;
+}
+
+/* MEDIA QUERIES */
+
+
+@media screen and (min-width:370px)and (max-width:480px){
+    #container {
+        border: none;
+
+
+        
+      
+    }
+#main-table {
+  width:inherit;
+
+  border:solid 2px black;
+  margin: auto;
+ 
+}
+td {
+   
+    line-height: 1;
+    
+    
+}
+
+a[href="gift.jpg"]{
+    font-size: 0.85rem;
+}
+}
