@@ -13,7 +13,7 @@ tbody{
 }
 tfoot{
     
-    background-color:lightgreen ;
+    background-color:lightblue ;
    
 }
 /* tfoot td {
@@ -89,17 +89,17 @@ a:hover{
     
 }
 
-#third-table {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    
-}
+
+
+/* h2{
+    margin: 2px;
+    padding: 0;
+} */
 #third-table td{
     
     width: 100vw;
-    height: auto;
+    height: 100px;
+    vertical-align: middle;
     
 
 }
